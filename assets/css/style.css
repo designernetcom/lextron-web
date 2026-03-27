@@ -181,7 +181,7 @@ body {
   font-weight: 400;
   color: var(--text-color);
   font-family: var(--body-font);
-  font-size: 16px;
+  font-size: 17px;
   line-height: 26px;
   /* overflow-x: hidden; */
 }
@@ -341,7 +341,7 @@ label {
 .section-title h2 {
   font-size: 52px;
   font-weight: 700;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 @media (max-width: 1650px) {
@@ -3234,7 +3234,7 @@ label {
 }
 
 .orbia-iconic-box.style-four .content h4 {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   font-size: 24px;
 }
 
@@ -8895,9 +8895,9 @@ label {
   display: inline-block;
   /* background: #3b82f6; */
   color: #000000;
-  padding: 10px 20px;
+  padding: 10px 0px;
   border-radius: 6px;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 /* CARD */
@@ -8940,7 +8940,7 @@ label {
 /* TEXT */
 .feature-card p {
   color: #777;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 /* RIGHT BORDER EFFECT (like your image) */
@@ -9007,7 +9007,7 @@ label {
 /* TEXT */
 .spec-box p {
   color: #777;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 /* TOP ACCENT LINE */
@@ -9401,3 +9401,26 @@ font-size: 24px;
     border-bottom: 2px solid #000;
   }
 }
+
+.card-content h3 {
+font-size: 17px !important;
+font-weight: 500;
+color: #333;
+}
+
+.pro-card p {
+font-size: 17px !important; 
+color: #666;
+}
+
+.features-list li {
+                        margin-bottom: 8px;
+                        font-size: 17px !important;
+                        color: #333;
+                    }
+
+.leetx-left p {
+                        color: #555;
+                        line-height: 1.7;
+                        font-size: 17px !important;
+                    }
